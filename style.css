@@ -27,3 +27,12 @@ img {
 img:hover {
   transform: scale(1.05);
 }
+.social-icons a {
+  font-size: 1.5rem;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: gold !important;
+}
