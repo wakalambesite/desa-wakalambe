@@ -1,0 +1,29 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 100, 0, 0.5), rgba(0, 100, 0, 0.5)),
+              url('assets/hero.jpg') center/cover no-repeat;
+}
+
+.navbar {
+  transition: background 0.5s ease;
+}
+
+.navbar.scrolled {
+  background: rgba(0, 100, 0, 0.9) !important;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+img {
+  transition: transform 0.4s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
